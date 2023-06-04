@@ -4,5 +4,5 @@ from ai import views
 
 urlpatterns = [
     
-    path('chat/', views.chat, name='chat'),
+    path('', views.chat, name='chat'),
 ]
